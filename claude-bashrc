@@ -1,0 +1,8 @@
+# softlink to this file from ~/.bashrc.d/claude
+# presume:
+# gcloud auth application-default login
+# gcloud auth application-default set-quota-project cloudability-it-gemini
+GCP_PROJECT_ID=itpc-gcp-hcm-pe-eng-claude
+export CLAUDE_CODE_USE_VERTEX=1
+#export CLOUD_ML_REGION=us-east5
+export ANTHROPIC_VERTEX_PROJECT_ID=$GCP_PROJECT_ID
