@@ -1,4 +1,3 @@
-# softlink to this file from ~/.bashrc.d/claude
 # presume:
 # gcloud auth application-default login
 # gcloud auth application-default set-quota-project cloudability-it-gemini

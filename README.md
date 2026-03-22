@@ -1,9 +1,14 @@
 # My non-authoritative config for Claude
 
 I'd like Claude to work fine for me on multiple desktops.
+This is not intended to be general or useful for everyone. However, suggestions
+are always welcome.
 
-Apply to each desktop with
+## License
+You can copy this repo only if you use it for creation of open-source software.
 
+## Usage
+Apply the included config to each desktop with
 ```
 stow -d ./home -t "$HOME" .
 ```
