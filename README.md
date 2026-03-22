@@ -1,3 +1,9 @@
 # My non-authoritative config for Claude
 
-I'd like Claude to work fine for me on multiple desktops. These are the scripts that I need to apply on each.
+I'd like Claude to work fine for me on multiple desktops.
+
+Apply to each desktop with
+
+```
+stow -d ./home -t "$HOME" .
+```
