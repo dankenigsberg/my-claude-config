@@ -13,6 +13,12 @@ Apply the included config to each desktop with
 stow -d ./home -t "$HOME" .
 ```
 
+## Plugins
+I wish I knew how to pull them via config files. Until then,
+```
+claude plugin marketplace add EveryInc/compound-engineering-plugin
+claude plugin install compound-engineering
+```
 
 ## Jira
 Generate token at https://id.atlassian.com/manage-profile/security/api-tokens
