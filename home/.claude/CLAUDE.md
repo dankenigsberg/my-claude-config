@@ -1,7 +1,7 @@
 # User Preferences
 ## Tools
 
-Prefer claude-native tools to edit and fetch files over curl and sed.
+Use claude-native Read and Fetch rahter than bash scripts with cat, set and curl.
 
 ## Git Commits
 - Always sign off git commits (`--signoff` / `Signed-off-by`).
