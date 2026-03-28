@@ -1,10 +1,10 @@
 # User Preferences
 ## Tools
 
-Use claude-native Read and Fetch rahter than bash scripts with cat, set and curl.
+Never use `sed`, `cat`, `head`, or `tail` to read file contents. Always use the Read tool - use `offset` and `limit` parameters for partial reads. Never use `grep` or `find` - use the Grep and Glob tools instead. Never use `curl` - use the Fetch tool.
 
 ## Git Commits
-- Always sign off git commits (`--signoff` / `Signed-off-by`).
+- Always sign off git commits using the `--signoff` flag. Never write a `Signed-off-by:` line manually in the commit message - the flag reads the correct identity from git config.
 - Use `Assisted-By: ` followed by the model used, e.g `Claude Opus 4.6` in commits. (no email address).
 - The commit message should explain the motivation for the change, so that a
   future human reviewer understands the change better.
